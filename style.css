@@ -1,0 +1,10 @@
+/* #canvas { width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: slategray;
+} */
+canvas { border:1px solid;
+    background-color: black;
+}

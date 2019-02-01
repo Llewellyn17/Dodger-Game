@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Dodger</title>
+</head>
+<body onload="startGame()">
+    <button id="button">Start Game</button>
+    <!-- <canvas id="canvas"></canvas> -->
+    <script src="ap.js"></script>
+    <div style="text-align:center;width:480px;">
+        <!--on mouse down and onmouse down stops the player from moving continously across the screen. Clear move in the javascript resets the movement speed of the cube.-->
+        <button onmousedown="moveup()" onmouseup="clearMove()">Up</button><br><br>
+        <button onmousedown="moveleft()" onmouseup="clearMove()">Left</button>
+        <button onmousedown="moveright()" onmouseup="clearMove()">Right</button><br><br>
+        <button onmousedown="movedown()" onmouseup="clearMove()">Down</button>
+      </div>
+    <p>this is </p>
+</body>
+</html>
