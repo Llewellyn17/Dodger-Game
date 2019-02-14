@@ -1,0 +1,43 @@
+/* #canvas { width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: slategray;
+} */
+.Title{
+    margin-left: 450px;
+    color: red;
+}
+
+
+canvas { margin-left: 300px;
+    border:1px solid;
+    background-color:pink;
+    margin-top: 100px;
+}
+.hidden{
+    display: none;
+}
+#endGame { 
+    width: 400px;
+    top: 120px;
+    background-color:transparent;
+    left: 5%;
+margin-left: 305px;
+padding-top: 150px;
+text-align: center;
+border-radius: 100px;
+color: red;
+font-size: 2em;
+position: absolute;
+margin-bottom: 100px}
+
+
+.backy{
+    background-color: black;
+}
+.words { color: red;
+    text-align: center;
+    
+}
